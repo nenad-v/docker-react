@@ -7,3 +7,11 @@ it('renders without crashing', () => {
   ReactDOM.render(<App />, div);
   ReactDOM.unmountComponentAtNode(div);
 });
+
+it('runs this test also', () => {
+    expect('foo').toBe('foo');
+});
+
+it('another test', () => {
+    expect('foo').toBe('foo');
+});
